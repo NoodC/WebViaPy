@@ -1,0 +1,4 @@
+Paleta de Colores:
+Principal: #24225f
+Secundario: #c6c8d7
+Fondo: #ffffff
