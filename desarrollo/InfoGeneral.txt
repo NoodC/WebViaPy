@@ -2,3 +2,11 @@ Paleta de Colores:
 Principal: #24225f
 Secundario: #c6c8d7
 Fondo: #ffffff
+
+Lista de cosas por aplicar según unidad
+-U3: Estructura básica, formato de texto HECHO
+-U4: Listas HECHO
+-U5: Imágenes INCOMPLETO (Logo de la empresa, faltan logos de WhastApp e Instagram; añadir también más imágenes si el cliente lo desea)
+-U6: Vínculos INCOMPLETO (añadir enlaces al WhatsApp e Instagram de la empresa)
+-U7: Tablas HECHO
+-U8: Marcos flotantes, marquesinas, multimedia PENDIENTE (añadir por lo menos una marquesina en el main)
