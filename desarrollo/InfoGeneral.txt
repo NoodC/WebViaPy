@@ -10,3 +10,5 @@ Lista de cosas por aplicar según unidad
 -U6: Vínculos INCOMPLETO (añadir enlaces al WhatsApp e Instagram de la empresa)
 -U7: Tablas HECHO
 -U8: Marcos flotantes, marquesinas, multimedia PENDIENTE (añadir por lo menos una marquesina en el main)
+
+-Añadir enlaces a las páginas listadas en sobrenosotros.html, si es posible con imágenes
