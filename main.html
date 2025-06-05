@@ -1,17 +1,30 @@
+<!--Sitio principal-->
+<!--Queda pendiente añadir elementos de relleno a la página, si es posible editar la tabla para añadir botones-->
 <html>
     <head>
-        <title>Inicio - ViaPy</title>
+        <title>Inicio - VIAPY</title>
     </head>
-    <body>
-        <hr width="100%" size="10%" color="#24225f">
-        <img src="imagenes/logo.png" height=10% align="left">
-        <H1 align="center">Bienvenido a ViaPy</H1>
+    <!--Colores consistentes con la paleta usada por el cliente en su perfil ya existente de Instagram-->
+    <body bgcolor="#ffffff">
+        <table border="0" height="50" width="100%" hspace="30">
+            <tr bgcolor="#24225f">
+                <td>
+                    <!--Notar que el logo aquí no es un botón como en el resto de las páginas, pues ya estamos en el inicio-->
+                    <img src="imagenes/logo.png" height="50" align="left">
+                </td>
+            </tr>
+            <tr bgcolor="#c6c8d7">
+                <td><marquee Behavior = "scroll" Loop="-1">No olvides colocar correctamente la dirección de tu casilla a la hora de comprar</marquee></td>
+            </tr>
+        </table>
+        <H1 align="center">Bienvenido a VIAPY</H1>
+        <!--Más adelante mover estas opciones a un menú propio-->
         <ul>
             <li>Inicio</li>
             <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
             <li>Servicios</li>
             <li>Preguntas Frecuentes</li>
-            <li>Como Llegar y Zona Delivery</li>
+            <li><a href="direccion.html">Como Llegar y Zona Delivery</a></li>
             <li><a href="contacto.html">Contacto</a></li>
         </ul>
     </body>
