@@ -6,9 +6,9 @@ Fondo: #ffffff
 Lista de cosas por aplicar según unidad
 -U3: Estructura básica, formato de texto HECHO
 -U4: Listas HECHO
--U5: Imágenes INCOMPLETO (Logo de la empresa, faltan logos de WhastApp, Instagram, y las páginas listadas en sobrenosotros.html; añadir también más imágenes si el cliente lo desea)
+-U5: Imágenes INCOMPLETO (Logo de la empresa y las páginas listadas en sobrenosotros.html, faltan usar los logos de WhastApp, Instagram ; añadir también más imágenes si el cliente lo desea)
 -U6: Vínculos INCOMPLETO (añadir enlaces al WhatsApp e Instagram de la empresa)
 -U7: Tablas HECHO
 -U8: Marcos flotantes, marquesinas, multimedia HECHO
 
--Añadir enlaces a las páginas listadas en sobrenosotros.html, si es posible con imágenes
+-Verificar atributo on mouse-over a los enlaces
