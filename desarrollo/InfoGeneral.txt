@@ -3,12 +3,12 @@ Principal: #24225f
 Secundario: #c6c8d7
 Fondo: #ffffff
 
-Lista de cosas por aplicar según unidad
--U3: Estructura básica, formato de texto HECHO
--U4: Listas HECHO
--U5: Imágenes COMPLETO
--U6: Vínculos COMPLETO
--U7: Tablas HECHO
--U8: Marcos flotantes, marquesinas, multimedia HECHO
+Lista de trabajo
+Lucas: contenido de main, definir el estilo general de la página con el cliente y verificar su aplicación al resto de las páginas
+Raúl: contenido de Contacto, Zona Delivery
+Sebas: contenido de Sobre Nosotros, Preguntas Frecuentes
+Francisco: contenido de Flete Miami - Asunción, Intermediario
+Cindy: Contenido de Delivery de Paquetes, Asesoramiento
+Josias: Enlaces entre páginas
 
--Verificar atributo on mouse-over a los enlaces
+Esta lista queda sujeta a modificaciones según el desarrollo de las clases y los deseos del cliente.
