@@ -3,20 +3,49 @@
 <html>
     <head>
         <title>Inicio - VIAPY</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <!--Colores consistentes con la paleta usada por el cliente en su perfil ya existente de Instagram-->
     <body bgcolor="#ffffff">
-        <table border="0" height="50" width="100%" hspace="30">
-            <tr bgcolor="#24225f">
-                <td>
+        <!-- <table border="0" height="50" width="100%" hspace="30">
+           <tr bgcolor="#24225f">
+                <td> -->
                     <!--Notar que el logo aquí no es un botón como en el resto de las páginas, pues ya estamos en el inicio-->
-                    <img src="imagenes/logo.png" height="50" align="left">
+                    <!-- <img src="imagenes/logo.png" height="50" align="left">
+                </td>
+                <td>
+                    <div class="btn-group">
+                        <button class="barButton">Sobre Nosotros</button>
+                        <button class="barButton">Servicios</button>
+                        <button class="barButton">Preguntas Frecuentes</button>
+                        <button class="barButton">Como Llegar</button>
+                        <button class="barButton">Contacto</button>
+                    </div>
                 </td>
             </tr>
             <tr bgcolor="#c6c8d7">
                 <td><marquee Behavior = "scroll" Loop="-1">No olvides colocar correctamente la dirección de tu casilla a la hora de comprar</marquee></td>
             </tr>
-        </table>
+        </table> -->
+        <div class="navbar">
+            <img src="imagenes/logo.png" height="20">
+            <a href="contacto.html">Contacto</a>
+            <a href="direccion.html">Como Llegar y Zona Delivery</a>
+            <a href="#news">Preguntas Frecuentes</a>
+            <div class="dropdown">
+                <button class="dropbtn">Servicios 
+                    <i class="fa fa-caret-down"></i> <!--Que hace esto?-->
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Flete Miami - Asunción</a>
+                    <a href="#">Compramos por vos</a>
+                    <a href="#">Delivery de paquetes</a>
+                    <a href="#">Asesoramiento para empresas</a>
+                </div>
+            </div>
+            <a href="sobrenosotros.html">Sobre Nosotros</a>
+        </div>
+        
         <H1 align="center">Bienvenido a VIAPY</H1>
         <!--Más adelante mover estas opciones a un menú propio-->
         <ul>

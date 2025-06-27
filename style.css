@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    overflow: hidden;
+    background-color: #24225f;
+}
+
+.navbar a {
+    float: right;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar img {
+    float: left;
+    top: 0px;
+    left: 0px;
+    padding: 14px 16px;
+}
+
+.dropdown{
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn{
+    font-size: 16px;
+    border: none;
+    background-color: #24225f;
+    color: #ffffff;
+    font-family: inherit;
+    text-align: center;
+    margin: 0;
+    padding: 14px 16px;
+    cursor: pointer;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn{
+    background-color: #5a5979;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #24225f;
+    z-index: 1;
+}
+
+.dropdown-content a{
+    float: none;
+    color: #ffffff;
+    padding: 12px 16px;
+    text-align: left;
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: #5a5979;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.btn-group .barButton{
+    background-color: #24225f;
+    border: none;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+
+.btn-group .barButton:hover{
+    background-color:#5a5979;
+    transition: 0.7s;
+}
