@@ -1,6 +1,74 @@
-<html>
-    <head>
-        <title>Cómo Llegar - VIAPY</title>
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Cómo Llegar - VIAPY</title>
+        <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+    }
+    header {
+      background-color: #24225f;
+      color: #fff;
+      padding: 40px;
+      text-align: center;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    
+    form label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    form button {
+      background-color: #24225f;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: #24225f;
+    }
+
+    footer {
+      background-color: #24225f;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    
+    .mapa iframe {
+    width: 100%;
+    border-radius: 8px;
+    }
+        </style>
     </head>
     <body bgcolor="#ffffff">
         <table border="0" height="50" width="100%" hspace="30">
@@ -10,10 +78,26 @@
                 </td>
             </tr>
         </table>
-        <h1>Cómo llegar</h1>
-        <p>Doctor Leandro Prieto 3849 casi Teniente Benítez, Barrio Mburicao, Asunción</p>
-        <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-57.59863346815109%2C-25.297889860473425%2C-57.59509295225144%2C-25.295789809102114&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?#map=19/-25.296840/-57.596863">Ver el mapa más grande</a></small>
-        <h1>Zona Delivery</h1>
-        <p>Próximamente</p>
+
+        <header>
+            <h1>Dirección de Nuestro Local</h1>
+        </header>
+
+        <main>
+            <section class="mapa">
+                <h2>Ubicación en Mapa</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d225.45079344733506!2d-57.596479373070075!3d-25.29705704494617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945da621a783c1e9%3A0x70425476bd452375!2sAgencia%20Lobo!5e0!3m2!1ses!2spy!4v1751223693499!5m2!1ses!2spy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><p><strong>Dirección:</strong> Calle Doctor Leandro Prieto 3849 casi Teniente Benítez, Barrio Mburicao, Asunción</p>
+            </section>
+            
+            <section>
+                <h3>Zona Delivery</h3>
+                <p>Próximamente</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Viapy_Courier. Todos los derechos reservados.</p>
+        </footer>
+
     </body>
 </html>
