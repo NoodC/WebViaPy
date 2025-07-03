@@ -4,44 +4,71 @@
     <head>
         <meta charset="UTF-8">
         <title>Sobre Nosotros - VIAPY</title>
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body bgcolor="#ffffff">
+    <style>
+        body{
+            background-image: url(imagenes/fondo.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 50%;
+            background-position: center;
+            background-color: #f7f7f7;
+        }
+
+        header {
+            background-color: #24225f;
+            color: #fff;
+            padding: 40px;
+            margin-top: 10px;
+            text-align: center;
+        }
+    </style>
+    <body>
+        <nav>
+            <div class="navbar"> 
+                <a id="button" href="contacto.html">Contacto</a>
+                <a id="button" href="direccion.html">Como Llegar y Zona Delivery</a>
+                <a id="button" href="preguntas.html">Preguntas Frecuentes</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Servicios</button>
+                    <div class="dropdown-content">
+                        <a href="flete.html">Flete Miami - Asunción</a>
+                        <a href="intermediario.html">Compramos por vos</a>
+                        <a href="delivery.html">Delivery de paquetes</a>
+                        <a href="externo.html">Asesoramiento para empresas</a>
+                    </div>
+                </div>
+                <a id="button" href="sobrenosotros.html">Sobre Nosotros</a>
+                <a class="img" href="main.html" style="float:left"><img src="imagenes/logo.png" height="21px"></a>
+            </div>
+        </nav>
         <header>
-            <nav>
-        <table border="0" height="50" width="100%" hspace="30">
-            <tr bgcolor="#24225f">
-                <td>
-                    <a href="main.html"><img src="imagenes/logo.png" height="50" alt="Logo VIAPY" title="VIAPY - Inicio" align="left"></a>
-                </td>
-            </tr>
-        </table>
-                </nav>
-            </header>
+            <h1 align="center">Sobre Nosotros</h1>
+        </header>
         <main>
             <section>
-        <h1 align="center">Sobre Nosotros</h1>
-        <article>
-                <h2>Misión</h2>
-                <p>Brindar un servicio confiable y accesible para que nuestros clientes puedan realizar sus compras online en tiendas del exterior y recibirlas en Paraguay de forma segura y rápida.</p>
-         </article>
-                <article>
-                <h2>Visión</h2>
-                <p>Ser la empresa líder en logística de compras internacionales en Paraguay, reconocida por nuestra eficiencia, innovación y atención al cliente.</p>
-         </article>
-         <article>
-                <h2>Visión</h2>
-                <p>Ser la empresa líder en logística de compras internacionales en Paraguay, reconocida por nuestra eficiencia, innovación y atención al cliente.</p>
-         </article>
-         <article>
-                <h2>Visión</h2>
-                <p>Ser la empresa líder en logística de compras internacionales en Paraguay, reconocida por nuestra eficiencia, innovación y atención al cliente.</p>
+        <article id="paragraph">
+            <div>
+                <br>
+                <h2 align="center">Misión</h2>
+                <br>
+                <p>Facilitar el acceso a productos del exterior mediante un servicio de courier confiable, ágil y económicamente accesible, que permita a nuestros clientes en Paraguay realizar sus compras internacionales con total seguridad, trazabilidad y comodidad. Nos comprometemos a ofrecer soluciones logísticas integrales, con tecnología de vanguardia, atención personalizada y un enfoque centrado en la experiencia del cliente.</p>
+                <br>
+            </div>
+            <div>
+                <h2 align="center">Visión</h2>
+                <br>
+                <p>Convertirnos en la empresa de referencia en Paraguay en el rubro de logística de compras internacionales, liderando por nuestra eficiencia operativa, capacidad de adaptación tecnológica y un servicio al cliente excepcional. Aspiramos a transformar la experiencia de compra transfronteriza en el país, marcando tendencia en innovación logística, sostenibilidad y confianza a largo plazo.</p>
+                <br>
+            </div>
+            <div>
+                <h2 align="center">Nuestro Servicio</h2>
+                <br>
+                <p>Con VIAPY podes realizar tus compras online y te lo traemos hasta Asunción. Pedí tu casilla gratuita hoy mismo. ¿Necesitas ayuda? Envianos un mensaje y te asesoramos al momento de hacer las compras.</p>
+            </div> 
         </article>
-     <article>  
-          <h2>Nuestro Servicio</h2>
-        <p>Con VIAPY podes realizar tus compras online y te lo traemos hasta Asunción. Pedí tu casilla gratuita hoy mismo.</p>
-        <p>¿Necesitas ayuda? Envianos un mensaje y te asesoramos al momento de hacer las compras.</p>
-        <p>Traé tus compras de:</p>
-         </article>           
+        <br>           
         <table>
             <tr align="center">
                 <td><a href="https://www.amazon.com" target="_blank"><img src=imagenes/amazon.png width="60%" title="Ir a Amazon" alt="Logo de Amazon"></a></td>
@@ -57,12 +84,10 @@
             </tr>
         </table>   
         <br>
-        <p>Y muchas páginas más</p>
-        <p><a href="contacto.html">Contactanos</a></p>
         </section>
     </main>
         <footer>
-            <p>&copy; 2025 VIAPY. Todos los derechos reservados.</p>
+            <p>&copy; 2025 Viapy_Courier. Todos los derechos reservados.</p>
         </footer>
     </body>
 </html>
