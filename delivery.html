@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Servicio de Delivery - VIAPY</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <style>
+        body{
+            background-image: url(imagenes/fondo.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 50%;
+            background-position: center;
+            background-color: #f7f7f7;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        form button {
+            background-color: #24225f;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #24225f;
+        }
+    </style>
+    </head>
+    <body>
+        <nav>
+            <div class="navbar"> 
+                <a id="button" href="contacto.html">Contacto</a>
+                <a id="button" href="direccion.html">Como Llegar y Zona Delivery</a>
+                <a id="button" href="preguntas.html">Preguntas Frecuentes</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Servicios</button>
+                    <div class="dropdown-content">
+                        <a href="flete.html">Flete Miami - Asunción</a>
+                        <a href="intermediario.html">Compramos por vos</a>
+                        <a href="delivery.html">Delivery de paquetes</a>
+                        <a href="externo.html">Asesoramiento para empresas</a>
+                    </div>
+                </div>
+                <a id="button" href="sobrenosotros.html">Sobre Nosotros</a>
+                <a class="img" href="main.html" style="float:left"><img src="imagenes/logo.png" height="21px"></a>
+            </div>
+        </nav>
+        <header>
+            <h2>Servicio de Delivery de Paquetes</h2>
+        </header>
+        <section id="paragraph" style="margin-bottom: 20px;">
+            <div>
+                <article>
+                    
+                    <p>Nos encargamos de transportar tus paquetes de forma rápida y segura.</p>
+
+                    <ul style="margin-left: 20px;">
+                        <li>Envíos a todo el país</li>
+                        <li>Seguimiento en tiempo real</li>
+                        <li>Entrega puerta a puerta</li>
+                    </ul>
+
+                    <p>Para solicitar un envío, completá este formulario:</p><br>
+
+                    <form action="mailto:delivery@tuservicio.com" method="post" enctype="text/plain" style="max-width: 600px;">
+                        Nombre: <input type="text" name="nombre"><br>
+                        Dirección de entrega: <input type="text" name="direccion"><br>
+                        Descripción del paquete: <br>
+                        <textarea name="descripcion" rows="4" cols="40"></textarea><br>
+                        <input type="submit" value="Solicitar Delivery">
+                        <input type="reset" value="Borrar">
+                    </form>
+                </article>
+            </div>
+            <div>
+                <article>
+                    <p>Para recibir tus compras de internet, <a href="direccion.html">ver aquí</a></p>
+                </article>
+                
+            </div>
+        </section>
+        <footer>
+            <p>&copy; 2025 Viapy_Courier. Todos los derechos reservados.</p>
+        </footer> 
+    </body>
+</html>

@@ -1,55 +1,99 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Preguntas Frecuentes - VIAPY</title>
-</head>
-<body bgcolor="#ffffff">
+    <head>
+        <meta charset="UTF-8">
+        <title>Preguntas Frecuentes - VIAPY</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <style>
+        body{
+            background-image: url(imagenes/fondo.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 50%;
+            background-position: center;
+            background-color: #f7f7f7;
+        }
 
-    <table border="0" height="50" width="100%">
-        <tr bgcolor="#24225f">
-            <td>
-                <a href="main.html">
-                    <img src="imagenes/logo.png" height="50" alt="Logo VIAPY" title="VIAPY - Inicio" align="left">
-                </a>
-            </td>
-        </tr>
-    </table>
-
-    <main>
-        <section>
+        header {
+            background-color: #24225f;
+            color: #fff;
+            padding: 40px;
+            margin-top: 10px;
+            text-align: center;
+        }
+    </style>
+    <body bgcolor="#ffffff">
+        <nav>
+            <div class="navbar"> 
+                <a id="button" href="contacto.html">Contacto</a>
+                <a id="button" href="direccion.html">Como Llegar y Zona Delivery</a>
+                <a id="button" href="preguntas.html">Preguntas Frecuentes</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Servicios</button>
+                    <div class="dropdown-content">
+                        <a href="flete.html">Flete Miami - Asunción</a>
+                        <a href="intermediario.html">Compramos por vos</a>
+                        <a href="delivery.html">Delivery de paquetes</a>
+                        <a href="externo.html">Asesoramiento para empresas</a>
+                    </div>
+                </div>
+                <a id="button" href="sobrenosotros.html">Sobre Nosotros</a>
+                <a class="img" href="main.html" style="float:left"><img src="imagenes/logo.png" height="21px"></a>
+            </div>    
+        </nav>
+        <header>
             <h1 align="center">Preguntas Frecuentes</h1>
+        </header>
+        <main>
+            <section id="paragraph" style="margin-bottom: 20px;">
+                <article>
+                    <h2>¿Cómo obtengo una casilla?</h2>
+                    <br>
+                    <p>Podés registrarte de forma gratuita en nuestro sitio web y te asignaremos una dirección de casilla en Estados Unidos para tus compras.</p>
+                    <br>
+                </article>
 
-            <article>
-                <h2>¿Cómo obtengo una casilla?</h2>
-                <p>Podés registrarte de forma gratuita en nuestro sitio web y te asignaremos una dirección de casilla en Estados Unidos para tus compras.</p>
-            </article>
+                <article>
+                    <h2>¿Cómo llega mi pedido desde Miami?</h2>
+                    <br>
+                    <p>Tenés la opción de traerlo por avión, o por barco.</p>
+                    <br>
+                </article>
 
-            <article>
-                <h2>¿Cuánto tarda en llegar mi paquete?</h2>
-                <p>Una vez recibido en nuestra casilla, el envío a Asunción tarda entre 7 a 10 días hábiles.</p>
-            </article>
+                <article>
+                    <h2>¿Cuánto tarda en llegar mi paquete?</h2>
+                    <br>
+                    <p>Una vez recibido en nuestra casilla, el envío a Asunción tarda entre 7 a 10 días hábiles por aire, y 3 meses por agua.</p>
+                    <br>
+                </article>
 
-            <article>
-                <h2>¿Puedo hacer seguimiento de mi pedido?</h2>
-                <p>Sí. Cada paquete cuenta con un número de seguimiento que podés consultar desde tu cuenta.</p>
-            </article>
+                <article>
+                    <h2>¿Puedo hacer seguimiento de mi pedido?</h2>
+                    <br>
+                    <p>Sí. Cada paquete cuenta con un número de seguimiento que podés consultar desde tu cuenta.</p>
+                    <br>
+                </article>
 
-            <article>
-                <h2>¿Qué tipo de productos puedo traer?</h2>
-                <p>Podés traer ropa, electrónicos, accesorios y muchos otros productos, excepto artículos prohibidos por aduanas.</p>
-            </article>
+                <article>
+                    <h2>¿Qué tipo de productos puedo traer?</h2>
+                    <br>
+                    <p>Podés traer ropa, electrónicos, accesorios y muchos otros productos, excepto artículos prohibidos por aduanas.</p>
+                    <br>
+                </article>
 
-            <article>
-                <h2>¿Cómo los contacto si tengo dudas?</h2>
-                <p>Visitá nuestra <a href="contacto.html">página de contacto</a> o escribinos por redes sociales y te ayudaremos al instante.</p>
-            </article>
-        </section>
-    </main>
+                <article>
+                    <h2>¿Cómo los contacto si tengo dudas?</h2>
+                    <br>
+                    <p>Visitá nuestra <a href="contacto.html">página de contacto</a> o escribinos por redes sociales y te ayudaremos al instante.</p>
+                    <br>
+                </article>
+            </section>
+        </main>
 
-    <footer>
-        <p>&copy; 2025 VIAPY. Todos los derechos reservados.</p>
-    </footer>
+        <footer > <!-- Editar si es necesario extender la pagina -->
+            <p>&copy; 2025 VIAPY. Todos los derechos reservados.</p>
+        </footer>
 
-</body>
+    </body>
 </html>

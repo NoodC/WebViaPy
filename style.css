@@ -131,6 +131,14 @@ body{
     width: 100%;
 }
 
+header {
+    background-color: #24225f;
+    color: #fff;
+    padding: 40px;
+    margin-top: 10px;
+    text-align: center;
+}
+
 footer {
     background-color: #24225f;
     color: #fff;
@@ -139,7 +147,6 @@ footer {
     }
 
 #paragraph{
-    text-align: center;
     max-width: 70%;
     margin: 40px auto;
     background: #fff;
