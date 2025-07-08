@@ -1,8 +1,11 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: "#ffffff";
-    background: "imagenes/fondo.png";
-    background-size: "auto 100%";
+    background-image: url(imagenes/fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50%;
+    background-position: center;
+    background-color: #f7f7f7;
 }
 
 *{
@@ -24,6 +27,32 @@ body{
     text-align: center;
     padding: 17px 17px;
     text-decoration: none;
+    transition: all 0.5s;
+}
+
+.navbar #button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.navbar #button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.navbar #button:hover span {
+    padding-right: 25px;
+}
+
+.navbar #button:hover span:after {
+    opacity: 1;
+    right: 0;
 }
 
 .navbar img{
@@ -110,7 +139,7 @@ body{
 .flexbox{
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content:space-evenly;
 }
 
 .flexbox > div {
@@ -119,15 +148,13 @@ body{
 }
 
 #prices{
-    max-width: 50%;
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 2px 2px 1px black;
-    flex-direction: row;
 }
 
 #textblock{
-    background-color: #5a5979;
+    background-color: #24225f;
     border-radius: 20px;
     padding-left: 10px;
     padding-right: 10px;
@@ -161,4 +188,5 @@ footer {
     margin-bottom: 40px;
     border-radius: 8px;
     font-size: 22px;
+    box-shadow: 2px 2px 1px black;
 }

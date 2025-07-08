@@ -7,10 +7,8 @@
   <link rel="stylesheet" href="style.css">
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f7f7f7;
     }
 
     header {
@@ -66,37 +64,37 @@
 </head>
 
 <body bgcolor="#ffffff">
-  <nav>
-    <div class="navbar">
-      <a id="button" href="contacto.html">Contacto</a>
-      <a id="button" href="direccion.html">Como Llegar y Zona Delivery</a>
-      <a id="button" href="preguntas.html">Preguntas Frecuentes</a>
-      <div class="dropdown">
-        <button class="dropbtn">Servicios</button>
-        <div class="dropdown-content">
-          <a href="flete.html">Flete Miami - Asunción</a>
-          <a href="intermediario.html">Compramos por vos</a>
-          <a href="delivery.html">Delivery de paquetes</a>
-          <a href="externo.html">Asesoramiento para empresas</a>
-        </div>
-      </div>
-      <a id="button" href="sobrenosotros.html">Sobre Nosotros</a>
-      <a class="img" href="main.html" style="float:left"><img src="imagenes/logo.png" height="21px"></a>
-    </div>
-  </nav>
+ <nav>
+            <div class="navbar"> 
+                <a id="button" href="contacto.html"><span>Contacto</span></a>
+                <a id="button" href="direccion.html"><span>Como Llegar y Zona Delivery</span></a>
+                <a id="button" href="preguntas.html"><span>Preguntas Frecuentes</span></a>
+                <div class="dropdown">
+                    <button class="dropbtn">Servicios</button>
+                    <div class="dropdown-content">
+                        <a href="flete.html"><span>Flete Miami - Asunción</span></a>
+                        <a href="intermediario.html"><span>Compramos por vos</span></a>
+                        <a href="delivery.html" ><span>Delivery de paquetes</span></a>
+                        <a href="externo.html"><span>Asesoramiento para empresas</span></a>
+                    </div>
+                </div>
+                <a id="button" href="sobrenosotros.html"><span>Sobre Nosotros</span></a>
+                <a class="img" href="main.html" style="float:left"><img src="imagenes/logo.png" height="21px"></a>
+            </div>
+        </nav>
   <header>
     <h1>CONTACTO</h1>
     <P>Estamos aquí para ayudarte. Completa el formulario y nos pondremos en contacto contigo pronto.</P>
   </header>
 
   <main>
-    <section>
+    <section style="box-shadow: 2px 2px 1px black;">
       <h2>Información de Contacto</h2>
       <p>Teléfono: +595 972 819 995</p>
       <p>Email: contacto@mail.com</p>
     </section>
 
-    <section>
+    <section style="box-shadow: 2px 2px 1px black;">
       <h2>Formulario de Contacto</h2>
       <form action="enviar_contacto" method="POST">
         <label for="nombre">Nombre:</label>
@@ -112,7 +110,7 @@
       </form>
     </section>
 
-    <section>
+    <section style="box-shadow: 2px 2px 1px black;">
       <table>
         <tr align="center">
           <td><a href="https://wa.me/5959972819995"><img src="imagenes/whatsapp.png" alt="Logo WhatsApp" width="30%"
