@@ -41,6 +41,15 @@
         form button:hover {
             background-color: #24225f;
         }
+
+        #promoimg{
+            float: right;
+            max-width: 40%;
+            margin-right: 100px;
+            margin-top: 100px;
+            border-radius: 5px;
+        }
+
     </style>
     </head>
     <body>
@@ -68,17 +77,14 @@
         <section id="paragraph" style="margin-bottom: 20px;">
             <div>
                 <article>
-                    
                     <p>Nos encargamos de transportar tus paquetes de forma rápida y segura.</p>
-
                     <ul style="margin-left: 20px;">
                         <li>Envíos a todo el país</li>
                         <li>Seguimiento en tiempo real</li>
                         <li>Entrega puerta a puerta</li>
                     </ul>
-
+                    <img id="promoimg" src="imagenes/delivery01.jpg">
                     <p>Para solicitar un envío, completá este formulario:</p><br>
-
                     <form action="mailto:delivery@tuservicio.com" method="post" enctype="text/plain" style="max-width: 600px;">
                         Nombre: <input type="text" name="nombre"><br>
                         Dirección de entrega: <input type="text" name="direccion"><br>

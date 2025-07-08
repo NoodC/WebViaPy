@@ -99,7 +99,6 @@ body{
 
 .column.middle{
     width: 75%;
-
 }
 
 .row::after{
@@ -112,12 +111,19 @@ body{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    
 }
 
 .flexbox > div {
     margin: 10px;
     align-content:center;
+}
+
+#prices{
+    max-width: 50%;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 2px 2px 1px black;
+    flex-direction: row;
 }
 
 #textblock{
