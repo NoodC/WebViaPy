@@ -2,20 +2,3 @@ Paleta de Colores:
 Principal: #24225f
 Secundario: #c6c8d7
 Fondo: #ffffff
-
-Lista de trabajo
-Lucas: contenido de main, definir el estilo general de la página con el cliente y verificar su aplicación al resto de las páginas
-Raúl: contenido de Contacto, Zona Delivery
-Sebas: contenido de Sobre Nosotros (inventar misión y visión, después se puede corregir), Preguntas Frecuentes (coordinar con Lucas)
-Francisco: contenido de Flete Miami - Asunción, Intermediario
-Cindy: Contenido de Delivery de Paquetes, Asesoramiento
-Josias: Enlaces entre páginas
-
-Esta lista queda sujeta a modificaciones según el desarrollo de las clases y los deseos del cliente.
-
-En caso de querer añadir imágenes a la carpeta, por lo menos deben medir 600x600, los íconos 600 de largo o alto, no es necesario ambos (ej 600x200 está bien).
-
-Evitar usar JavaScript.
-
-https://www.w3schools.com/css/css3_buttons.asp -> Implementación de botones en CSS, muchos recursos en general, vale la pena mirar (inglés)
-https://www.w3schools.com/howto/howto_css_dropdown.asp
