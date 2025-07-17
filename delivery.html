@@ -4,44 +4,7 @@
         <title>Servicio de Delivery - VIAPY</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
-        <style>
-        form label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-
-        form input,
-        form textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 20px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-
-        form button {
-            background-color: #24225f;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        form button:hover {
-            background-color: #24225f;
-        }
-
-        #promoimg{
-            float: right;
-            max-width: 40%;
-            margin-right: 100px;
-            margin-top: 100px;
-            border-radius: 5px;
-        }
-
-    </style>
+        
     </head>
     <body>
         <nav>
@@ -63,20 +26,26 @@
             </div>
         </nav>
         <header>
-            <h2>Servicio de Delivery de Paquetes</h2>
+            <h1>Servicio de Delivery de Paquetes</h1>
         </header>
-        <section id="paragraph" style="margin-bottom: 20px;">
+        <main>
+            <section style="box-shadow: 2px 2px 1px black;">
+                <h2>¿Qué es nuestro servicio de Delivery?</h2>
+                <p>En VIAPY ofrecemos un servicio de delivery para llevar tus paquetes desde nuestra agencia hasta tu puerta. Nos encargamos de que tus envíos lleguen de forma rápida y segura.</p>
+            </section>
+            
+            <section style="box-shadow: 2px 2px 1px black;">
             <div>
                 <article>
-                    <p>Nos encargamos de transportar tus paquetes de forma rápida y segura.</p>
+                    <h3>Nos encargamos de transportar tus paquetes de forma rápida y segura.</h3>
                     <ul style="margin-left: 20px;">
                         <li>Envíos a todo el país</li>
                         <li>Seguimiento en tiempo real</li>
                         <li>Entrega puerta a puerta</li>
                     </ul>
-                    <img id="promoimg" src="imagenes/delivery01.jpg">
+                    <img src="imagenes/delivery01.jpg" class="mi-imagen">
                     <p>Para solicitar un envío, completá este formulario:</p><br>
-                    <form action="mailto:delivery@tuservicio.com" method="post" enctype="text/plain" style="max-width: 600px;">
+                    <form action="mailto:delivery@tuservicio.com" method="post" enctype="text/plain" style="max-width: 50px;">
                         Nombre: <input type="text" name="nombre"><br>
                         Dirección de entrega: <input type="text" name="direccion"><br>
                         Descripción del paquete: <br>
@@ -93,6 +62,8 @@
                 
             </div>
         </section>
+        </main>
+
         <footer>
             <p>&copy; 2025 Viapy_Courier. Todos los derechos reservados.</p>
         </footer> 
