@@ -3,8 +3,7 @@
     <head>
         <title>Servicio de Delivery - VIAPY</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
-        
+        <link rel="stylesheet" href="style.css">    
     </head>
     <body>
         <nav>
@@ -31,7 +30,11 @@
         <main>
             <section style="box-shadow: 2px 2px 1px black;">
                 <h2>¿Qué es nuestro servicio de Delivery?</h2>
-                <p>En VIAPY ofrecemos un servicio de delivery para llevar tus paquetes desde nuestra agencia hasta tu puerta. Nos encargamos de que tus envíos lleguen de forma rápida y segura.</p>
+                <br>
+                <div class="flexbox">
+                    <img src="imagenes/delivery01.jpg" class="mi-imagen" style="width: 150%; border-radius: 5px; box-shadow: 0px 0px 2px 0px black; margin-right: 5px;">
+                    <p style="align-self: center;">En VIAPY ofrecemos un servicio de delivery para llevar tus paquetes desde nuestra agencia hasta tu puerta. Nos encargamos de que tus envíos lleguen de forma rápida y segura.</p>
+                </div>
             </section>
             
             <section style="box-shadow: 2px 2px 1px black;">
@@ -43,18 +46,18 @@
                         <li>Seguimiento en tiempo real</li>
                         <li>Entrega puerta a puerta</li>
                     </ul>
-                    <img src="imagenes/delivery01.jpg" class="mi-imagen">
                     <p>Para solicitar un envío, completá este formulario:</p><br>
-                    <form action="mailto:delivery@tuservicio.com" method="post" enctype="text/plain" style="max-width: 50px;">
-                        Nombre: <input type="text" name="nombre"><br>
+                    <form action="mailto:delivery@tuservicio.com" method="post" enctype="text/plain" style="max-width: 500px;">
+                        Nombre: <input type="text"name="nombre"><br>
                         Dirección de entrega: <input type="text" name="direccion"><br>
                         Descripción del paquete: <br>
                         <textarea name="descripcion" rows="4" cols="40"></textarea><br>
-                        <input type="submit" value="Solicitar Delivery">
-                        <input type="reset" value="Borrar">
+                        <button type="submit">Enviar</button>
+                        <button type="submit">Borrar</button>
                     </form>
                 </article>
             </div>
+            <br>
             <div>
                 <article>
                     <p>Para recibir tus compras de internet, <a href="direccion.html">ver aquí</a></p>
